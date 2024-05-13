@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Book Store</title>
+        <meta name="description" content="This is my book store.">
+        <style></style>
+        <script></script>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Book Store</h1>
+        <p>This is my book store</p>
+        <form action="" method="post">
+            <div>
+                <!-- Sent with request -->
+                <label>Readonly</label>
+                <input type="text" name="username" placeholder="Username" value="Mohamed" readonly>
+            </div>
+            <br>
+            <div>
+                <!-- Not sent with request -->
+                <label>Disabled</label>
+                <input type="email" name="email" placeholder="Email" value="m@m.com" disabled>
+            </div>
+            <br>
+            <div>
+                <label>Autofocus</label>
+                <input type="password" name="password" placeholder="Password" autofocus>
+            </div>
+            <br>
+            <div>
+                <label>Min Length and Max length</label>
+                <input type="text" name="text" placeholder="text" minlength="10" maxlength="20">                
+            </div>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Book Store</title>
+        <meta name="description" content="This is my book store.">
+        <link rel="stylesheet" href="">
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+        <h1>Book Store</h1>
+        <p>This is my book store.</p>
+        <hr>
+        <form action="" method="post">
+            <div>
+                <p>Operating System</p>
+                <div>
+                    <input id="os-windows" type="radio" name="os" value="Windows" checked>
+                    <label for="os-windows">Windows</label>
+                </div>
+                <div>
+                    <input id="os-linux" type="radio" name="os" value="Linux">
+                    <label for="os-linux">Linux</label>
+                </div>
+                <div>
+                    <input id="os-mac" type="radio" name="os" value="Mac">
+                    <label for="os-mac">Mac</label>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p>Programming Languages</p>
+                <div>
+                    <input id="c#" type="checkbox" name="languages[]" value="C#">
+                    <label for="c#">C#</label>
+                </div>
+                <div>
+                    <input id="java" type="checkbox" name="languages[]" value="Java">
+                    <label for="java">Java</label>
+                </div>
+                <div>
+                    <input id="python" type="checkbox" name="languages[]" value="Python">
+                    <label for="python">Python</label>
+                </div>
+                <div>
+                    <input id="php" type="checkbox" name="languages[]" value="PHP">
+                    <label for="php">PHP</label>
+                </div>
+            </div>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Sbmit">
+        </form>
+    </body>
+</html>
